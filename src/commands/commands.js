@@ -28,7 +28,7 @@ function action(event) {
   event.completed();
 }
 
-function getGlobal() {
+  function getGlobal() {
   return typeof self !== "undefined"
     ? self
     : typeof window !== "undefined"
